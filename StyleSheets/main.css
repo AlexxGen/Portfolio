@@ -28,9 +28,11 @@ body{
     font-style: normal; */
 }
 
+/* HEADER STYLES */
 header{
     text-align: right;
     padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 header a{
@@ -39,10 +41,12 @@ header a{
     font-size: 1.5rem;
 }
 
+/* TOP STYLES */
 .top{
     height: 35rem;
-    width: 100%;
-    background-color: brown;
+    background-color: #481E14;
+    border-top: 10px solid #481E14;
+    border-bottom: 10px solid #481E14;
 }
 
 h1{
@@ -57,18 +61,34 @@ h1{
     font-size: 2rem;
 }
 
+/* LATEST PROJECT STYLES */
 .latest{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 100px;
 }
 
+.latest img{
+    float: left;
+    margin-right: 4%;
+}
+/* 
+.latest p{
+    
+
+} */
+
+/* ABOUT ME STYLES */
 .aboutMe{
-    margin-left: 100px;
-    margin-right: 100px;
+    clear: left;
+    margin: 100px;
+    margin-top: 150px;
 }
 
+/* FOOTER STYLES */
 footer{
     text-align: center;
+    background-color: #481E14;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 footer a{
@@ -78,9 +98,13 @@ footer a{
     margin-left: 2%;
 }
 
-/* classes added in js */
+/* extra details */
 .selected{
     color: #F2613F;
+}
+
+.gameTitle{
+    color: #9B3922;
 }
 
 .pic1{
