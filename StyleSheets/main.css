@@ -40,7 +40,7 @@ header a{
 }
 
 .top{
-    height: 25rem;
+    height: 35rem;
     width: 100%;
     background-color: brown;
 }
@@ -58,8 +58,24 @@ h1{
 }
 
 .latest{
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.aboutMe{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    margin: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 /* classes added in js */
@@ -68,5 +84,5 @@ h1{
 }
 
 .pic1{
-    background-image: "./";
+    background-image: url("../Images/HiddenPines/HiddenPines1.png");
 }
