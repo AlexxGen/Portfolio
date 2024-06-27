@@ -10,7 +10,7 @@ body{
     font-style: normal;
 }
 
-/* header font */
+/* subHeader font */
 .subHeader {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -33,7 +33,7 @@ header a{
 
 /* TOP STYLES */
 .top{
-    height: 35rem;
+    height: 20rem;
     background-color: #481E14;
     border-top: 10px solid #481E14;
     border-bottom: 10px solid #481E14;
@@ -46,31 +46,32 @@ h1{
     font-style: bold !important;
 }
 
-.top h2{
-    text-align: center;
-    font-size: 2rem;
-}
 
 /* LATEST PROJECT STYLES */
-.spotlight{
+.art{
     margin: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.spotlight img{
-    clear: left;
-    float: left;
-    height: 250px;
+.art img{
+    list-style: inline;
+    height: 200px;
     margin-right: 4%;
 }
 
-/* ABOUT ME STYLES */
-.aboutMe{
-    clear: left;
-    margin: 100px;
-    margin-top: 150px;
+/* .animationSheet img{
+    float: left;
+    height: 200px;
+    margin-right: 4%;
 }
+
+.pixilArt img{
+    clear: left;
+    float: left;
+    height: 200px;
+    margin-right: 4%;
+} */
 
 /* FOOTER STYLES */
 footer{
@@ -81,6 +82,7 @@ footer{
 }
 
 footer a{
+    clear: left;
     color: white;
     margin: 1%;
     margin-right: 2%;

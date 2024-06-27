@@ -57,8 +57,13 @@ h1{
 .game img{
     clear: left;
     float: left;
-    height: 200px;
+    width: 300px;
     margin-right: 4%;
+}
+
+.shadowless{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* FOOTER STYLES */
