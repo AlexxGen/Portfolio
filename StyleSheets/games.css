@@ -10,6 +10,11 @@ body{
     font-style: normal;
 }
 
+#select{
+    display: grid;
+    
+}
+
 /* subHeader font */
 .subHeader {
     font-family: "Roboto Condensed", sans-serif;
