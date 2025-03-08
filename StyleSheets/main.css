@@ -1,5 +1,14 @@
 body{
-    background-color: #0C0C0C;
+    /* background-color: #343434; */
+    /* background-image: url("../Images/KarkinosAcsension/karkinosScene.png"); */
+    /* background-image: url("../Images/KarkinosAcsension/waterSandKelp.png"); */
+    /* background-image: url("../Images/KarkinosAcsension/karkinosPic2.png"); */
+    background-image: url("../Images/KarkinosAcsension/karkinosPic3.png");    
+
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+
     color: white;
     font-size: 15pt;
     letter-spacing: 2px;
@@ -9,7 +18,50 @@ body{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+
+    padding: 5%;
 }
+
+.bg{
+    padding: 2%;
+    background-color: rgba(27, 27, 27, 0.858)
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo {
+    float: left;
+    margin: 2rem;
+}
+
+#logo img{
+    border-radius: 50%;
+}
+
+#text{
+    margin: 2rem;
+}
+
+#myWork p{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+}
+
+#tabs {
+    float: none;
+    display: flex;
+    padding: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+}
+
 
 /* header font */
 .subHeader {
@@ -19,25 +71,10 @@ body{
     font-style: normal;
 }
 
-/* HEADER STYLES */
-header{
-    text-align: right;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-header a{
+a {
     color: white;
-    margin: 1%;
+    /* margin: 1%; */
     font-size: 1.5rem;
-}
-
-/* TOP STYLES */
-.top{
-    height: 35rem;
-    background-color: #481E14;
-    border-top: 10px solid #481E14;
-    border-bottom: 10px solid #481E14;
 }
 
 h1{
@@ -48,47 +85,22 @@ h1{
     font-style: bold !important;
 }
 
-.top h2{
+h2 {
     text-align: center;
     font-size: 2rem;
     letter-spacing: 5px;
 }
 
-/* LATEST PROJECT STYLES */
-.spotlight{
-    margin: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+/* Responsive for phone */
+@media (max-width: 800px) {
+    body{
+        text-align: center;
+    }
 
-.spotlight img{
-    clear: left;
-    float: left;
-    height: 250px;
-    margin-right: 4%;
-}
-
-/* ABOUT ME STYLES */
-.aboutMe{
-    clear: left;
-    margin: 100px;
-    margin-top: 150px;
-}
-
-/* FOOTER STYLES */
-footer{
-    text-align: center;
-    background-color: #481E14;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-footer a{
-    color: white;
-    margin: 1%;
-    margin-right: 2%;
-    margin-left: 2%;
-}
+    #main{
+        flex-direction: column;
+    }
+  }
 
 /* extra details */
 .selected{
