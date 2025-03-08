@@ -53,6 +53,11 @@ body{
     justify-content: space-around;
 }
 
+#links{
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+}
+
 #tabs {
     float: none;
     display: flex;
@@ -60,6 +65,7 @@ body{
     padding-left: 10%;
     padding-right: 10%;
     justify-content: space-around;
+    font-weight: bold;
 }
 
 
@@ -104,7 +110,7 @@ h2 {
 
 /* extra details */
 .selected{
-    color: #F2613F;
+    color: #405ba9;
 }
 
 a{
