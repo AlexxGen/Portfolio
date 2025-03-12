@@ -1,6 +1,7 @@
+/* #1A509F */
 body{
-    background-color: #0C0C0C;
-    color: white;
+    background-color: #1A509F;
+    color: rgb(178, 186, 194);
     font-size: 15pt;
     size: 15pt;
 
@@ -8,11 +9,17 @@ body{
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
+
+    padding: 5%;
 }
 
-#select{
-    display: grid;
-    grid-template-columns: 1 1;
+.bg{
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgba(27, 27, 27, 0.858);
+ 
+    /* display: grid;
+    grid-template-columns: 1 1; */
 }
 
 /* subHeader font */
@@ -39,9 +46,9 @@ header a{
 /* TOP STYLES */
 .top{
     height: 20rem;
-    background-color: #481E14;
-    border-top: 10px solid #481E14;
-    border-bottom: 10px solid #481E14;
+    background-color: #000000;
+    /* border-top: 10px solid #1A509F;
+    border-bottom: 10px solid #1A509F; */
 }
 
 h1{
@@ -52,14 +59,49 @@ h1{
 }
 
 
-/* LATEST PROJECT STYLES */
 .game{
-    margin: 100px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    border: 3px solid black;
+}
+
+.game a{
+    position: relative;
 }
 
 .game img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 4;
+}
+
+.gameTitle{
+    font-size: 1rem;
+    position: absolute;
+    color: rgb(178, 186, 194);
+    letter-spacing: 1px;
+    top: 0%;
+    padding-left: 50%;
+    padding-top: 15%;
+    width: 100%;
+    height: auto; 
+    z-index: 5;
+    opacity: 0;
+} 
+
+
+/* LATEST PROJECT STYLES */
+/* .game{
+    margin: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+/* .game img{
     clear: left;
     float: left;
     width: 300px;
@@ -69,12 +111,12 @@ h1{
 .shadowless{
     padding-top: 40px;
     padding-bottom: 40px;
-}
+} */
 
 /* FOOTER STYLES */
 footer{
     text-align: center;
-    background-color: #481E14;
+    background-color: #1A509F;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -89,17 +131,24 @@ footer a{
 
 /* extra details */
 .selected{
-    color: #F2613F;
+    color: #405ba9;
 }
 
 a{
     text-decoration: none;
 }
 
-.gameTitle{
-    color: #9B3922;
+.hover{
+    box-shadow: 0 3px 4px 0 grey;
 }
 
-.pic1{
-    background-image: url("../Images/HiddenPines/HiddenPines1.png");
+.hoverName{
+    box-shadow: initial;
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+.hoverImg{
+    opacity: .8;
+    filter: brightness(30%);
 }

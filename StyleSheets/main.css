@@ -24,7 +24,7 @@ body{
 
 .bg{
     padding: 2%;
-    background-color: rgba(27, 27, 27, 0.858)
+    background-color: rgba(27, 27, 27, 0.858);
 }
 
 #main{
@@ -115,12 +115,4 @@ h2 {
 
 a{
     text-decoration: none;
-}
-
-.gameTitle{
-    color: #9B3922;
-}
-
-.pic1{
-    background-image: url("../Images/HiddenPines/HiddenPines1.png");
 }
