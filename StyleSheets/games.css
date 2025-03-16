@@ -1,7 +1,8 @@
 /* #1A509F */
 body{
-    background-color: #1A509F;
-    color: rgb(178, 186, 194);
+    background-color: #404c5f;
+    /* background-image: url("../Images/KarkinosAcsension/waterSandKelp.png"); */
+    color: rgb(255, 255, 255);
     font-size: 15pt;
     size: 15pt;
 
@@ -46,7 +47,7 @@ header a{
 /* TOP STYLES */
 .top{
     height: 20rem;
-    background-color: #000000;
+    background-color: rgba(27, 27, 27, 0.858);
     /* border-top: 10px solid #1A509F;
     border-bottom: 10px solid #1A509F; */
 }
@@ -61,10 +62,10 @@ h1{
 
 .game{
     display: inline-block;
-    height: 200px;
-    width: 400px;
+    height: auto;
+    width: 49%;
     text-align: center;
-    border: 3px solid black;
+    border: px solid black;
 }
 
 .game a{
@@ -72,8 +73,8 @@ h1{
 }
 
 .game img{
-    height: 500px;
-    width: 500px;
+    /* max-height: 100%; */
+    max-width: 100%;
     object-fit: cover;
     object-position: center;
     z-index: 4;
@@ -116,7 +117,7 @@ h1{
 /* FOOTER STYLES */
 footer{
     text-align: center;
-    background-color: #1A509F;
+    background-color: #404c5f;
     padding-top: 50px;
     padding-bottom: 50px;
 }
