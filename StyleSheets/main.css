@@ -129,24 +129,24 @@ main{
     margin: 3% 0;
 }
 
-.photos{
+.multiP{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
-.videos{
+.singleP{
     display: flex;
     flex-direction: row;
 }
 
-.photos img{
+.multiC{
     height: 200px;
     width: 400px;
     padding: 1rem;
 }
 
-.videos video{
+.singleC{
     height: 450px;
     width: 850px;
     padding: 1rem;
